@@ -102,12 +102,12 @@ class Atm:
             print("Incorrect PIN")
             return False
         else:
-            pin = int(input("**Confirmation Successful**\nPlease enter your new PIN:"))
+            pin = input("**Confirmation Successful**\nPlease enter your new PIN:")
             if len(pin) != 4 or not pin.isdigit():
                 print("**Invalid PIN**")
                 return False
             check_pin = int(input("Please Confirm your new PIN:"))
-            if pin == check_pin:
+            if int(pin) == check_pin:
                 self.__pin = check_pin
                 print("**PIN Changed Successfully**")
                 return True

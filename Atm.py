@@ -120,7 +120,7 @@ class Atm:
     If the PIN is incorrect, display an error message.
     """  
     def __balance_check(self):
-        if self.__verify_pin() == True:
+        if self.__verify_pin():
             print("Balance: $"+str(self.__balance))
     """
     Prompt the user to enter the PIN and the amount to withdraw.

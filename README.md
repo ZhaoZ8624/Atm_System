@@ -1,4 +1,4 @@
-<font size = "18">This program was created to try and imitate an ATM Sytem.<br>
+<font size = "30">This program was created to try and imitate an ATM Sytem.<br>
 You can operate this system by entering numbers 1-6, with their own respective purposes.<br>
 <ul>
 <li>1 generates a pin for the user, where it only accepts 4 digit numbers.</li><br>
